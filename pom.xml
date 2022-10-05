@@ -11,6 +11,7 @@
 
     <modules>
         <module>knapsack-problem</module>
+        <module>graph</module>
     </modules>
 
     <properties>
