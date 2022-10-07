@@ -7,6 +7,6 @@ public class Application {
     private static final Logger LOGGER = LoggerFactory.getLogger(Application.class);
 
     public static void main(String[] args) {
-        LOGGER.info("Hello world!");
+        LOGGER.info("Application started!");
     }
 }

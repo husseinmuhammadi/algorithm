@@ -12,22 +12,15 @@
 
     <artifactId>algorithm-knapsack-problem</artifactId>
 
+    <properties>
+        <main-class>com.javastudio.algorithm.Application</main-class>
+    </properties>
+
     <build>
-        <finalName>demo</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
-                <version>3.2.0</version>
-                <configuration>
-                    <archive>
-                        <manifest>
-                            <addClasspath>true</addClasspath>
-                            <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>com.javastudio.algorithm.Application</mainClass>
-                        </manifest>
-                    </archive>
-                </configuration>
             </plugin>
         </plugins>
     </build>
@@ -36,7 +29,7 @@
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
-            <version>1.2.3</version>
+            <scope>runtime</scope>
         </dependency>
     </dependencies>
 </project>
