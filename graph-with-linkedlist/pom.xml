@@ -3,17 +3,16 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
     <parent>
         <groupId>com.javastudio.tutorial.algorithm</groupId>
         <artifactId>algorithm-parent</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>algorithm-knapsack-problem</artifactId>
+    <artifactId>graph-with-linkedlist</artifactId>
 
     <properties>
-        <main-class>com.javastudio.algorithm.Application</main-class>
+        <main-class>com.javastudio.tutorial.graph.Application</main-class>
     </properties>
 
     <build>
