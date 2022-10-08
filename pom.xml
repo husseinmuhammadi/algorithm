@@ -12,6 +12,7 @@
     <modules>
         <module>knapsack-problem</module>
         <module>graph</module>
+        <module>graph-with-linkedlist</module>
     </modules>
 
     <properties>
