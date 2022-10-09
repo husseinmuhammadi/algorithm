@@ -6,14 +6,14 @@ import java.util.Set;
 
 public class Node<T> {
     private final T value;
-    private final Set<Node<T>> neighbors = new HashSet<>();
+    private final Set<Node<T>> neighbours = new HashSet<>();
 
     public Node(T value) {
         this.value = value;
     }
 
     public Node<T> addEdge(Node<T> dest){
-        neighbors.add(dest);
+        neighbours.add(dest);
         return this;
     }
 
@@ -21,8 +21,8 @@ public class Node<T> {
         return value;
     }
 
-    public Set<Node<T>> getNeighbors() {
-        return neighbors;
+    public Set<Node<T>> getNeighbours() {
+        return neighbours;
     }
 
     @Override
